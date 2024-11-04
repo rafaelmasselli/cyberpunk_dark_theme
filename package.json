@@ -1,0 +1,35 @@
+{
+  "name": "XY",
+  "description": "dark theme",
+  "displayName": "cyberpunk theme",
+  "version": "1.2.0",
+  "icon": "./assets/icon.png",
+  "scripts": {
+    "package": "vsce package --no-yarn",
+    "publish": "vsce publish --no-yarn"
+  },
+  "keywords": [
+    "theme",
+    "cyberpunk",
+    "dark"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cyberpunk Dark",
+        "uiTheme": "dark",
+        "path": "./themes/cyberpunk-color-theme.json"
+      }
+    ]
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}
